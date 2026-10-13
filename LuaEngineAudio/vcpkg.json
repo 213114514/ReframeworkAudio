@@ -1,9 +1,0 @@
-{
-  "name": "luaengine-audio",
-  "version-string": "0.0.1",
-  "dependencies": [
-    "sdl2-mixer",
-    "sdl2",
-    "lua"
-  ]
-}

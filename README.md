@@ -1,7 +1,7 @@
-# LuaEngineAudio
-LuaEngineçš„éŸ³é¢‘ç»„ä»¶ï¼Œå¯å®ç°æ¸¸æˆå†…æ’­æ”¾éŸ³é¢‘çš„åŠŸèƒ½
+# ReframeworkAudio
+reframeworkµÄlua½Å±¾µÄÒôÆµ×é¼ş£¬¿ÉÊµÏÖÓÎÏ·ÄÚ²¥·ÅÒôÆµµÄ¹¦ÄÜ
 
-## åŠŸèƒ½åˆ—è¡¨
+## ¹¦ÄÜÁĞ±í
 - loadAudio
 - playAudio
 - pauseAudio
@@ -10,13 +10,14 @@ LuaEngineçš„éŸ³é¢‘ç»„ä»¶ï¼Œå¯å®ç°æ¸¸æˆå†…æ’­æ”¾éŸ³é¢‘çš„åŠŸèƒ½
 - setVolume
 - getCurrentPosition
 - deleteAudio
+- getAudioInfo
 
-## ç¤ºä¾‹
-  loadAudio('test','nativePC/test.ogg')
+## Ê¾Àı
+  loadAudio('test','music/test.ogg')
   playAudio('test')
   setVolume('test', 128)
 
-## è¯´æ˜
-loadAudioå¯åŠ è½½oggå’Œwavæ ¼å¼çš„éŸ³é¢‘æ–‡ä»¶
+## ËµÃ÷
+loadAudio¿É¼ÓÔØogg¡¢wavºÍmp3¸ñÊ½µÄÒôÆµÎÄ¼ş
 
-setVolumeå–å€¼èŒƒå›´æ˜¯0-128
+setVolumeÈ¡Öµ·¶Î§ÊÇ0-128
