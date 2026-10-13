@@ -28,13 +28,13 @@ static std::string g_currentName;   // µ±Ç°ÕýÔÚ²¥·ÅµÄÒôÆµÃû£¨Mix_Music Í¬Ê±Ö»ÄÜ²
 // ÈÕÖ¾Êä³öº¯Êý
 static void logInfo(const std::string& msg) {
     if (g_functions && g_functions->log_info) {
-        g_functions->log_info("[LuaAudio] %s", msg.c_str());
+        g_functions->log_info("[ReframeworkAudio] %s", msg.c_str());
     }
 }
 
 static void logError(const std::string& msg) {
     if (g_functions && g_functions->log_error) {
-        g_functions->log_error("[LuaAudio] %s", msg.c_str());
+        g_functions->log_error("[ReframeworkAudio] %s", msg.c_str());
     }
 }
 
@@ -232,6 +232,6 @@ extern "C" __declspec(dllexport) bool reframework_plugin_initialize(const REFram
         return false;
     }
 
-    logInfo("LuaAudio ²å¼þ³õÊ¼»¯Íê³É");
+    logInfo("ReframeworkAudio ²å¼þ³õÊ¼»¯Íê³É");
     return true;
 }
